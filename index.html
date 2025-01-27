@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Switcher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="burger-menu__opened">
+        <div class="burger-menu__logo">
+          <h5 class="burger-menu__logo_text">Main sections</h5>
+        </div>
+        <ul class="burger-menu__container">
+          <li class="burger-menu__item">
+            <button class="burger-menu__link">Menu</button>
+          </li>
+          <li class="burger-menu__item">
+            <button class="burger-menu__link">Recipes</button>
+          </li>
+          <li class="burger-menu__item">
+            <button class="burger-menu__link">Chefs</button>
+          </li>
+          <li class="burger-menu__item">
+            <button class="burger-menu__link">Contacts</button>
+          </li>
+        </ul>
+      </div>
+      <header class="header">
+        <div class="header__container">
+          <div class="header__row">
+            <div class="header__row-container">
+              <div class="header-logo">
+                <img src="img/logo.svg" alt="" class="header-logo__img" />
+                <h5 class="header-logo__text">Healthy Switcher</h5>
+              </div>
+              <nav class="header-menu">
+                <ul class="header-menu__container">
+                  <li class="header-menu__item">
+                    <button class="header-menu__link">Menu</button>
+                  </li>
+                  <li class="header-menu__item">
+                    <button class="header-menu__link">Recipes</button>
+                  </li>
+                  <li class="header-menu__item">
+                    <button class="header-menu__link">Chefs</button>
+                  </li>
+                  <li class="header-menu__item">
+                    <button class="header-menu__link">Contacts</button>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="burger-menu">
+              <img src="img/burger.svg" alt="burger" />
+            </div>
+          </div>
+          <div class="header__offer">
+            <div class="header__offer_container">
+              <h1 class="header__offer_title">
+                Your <strong>favourite food</strong> <br />
+                delivered <strong>hot & fresh</strong>
+              </h1>
+              <p class="header__offer_text">
+                HEALTHY SWITCHER chefs do all the prep work, like peeling,
+                chopping & <br />
+                marinating, so you can cook a fresh homemade dinner in just 15
+                minutes.
+              </p>
+              <a href="#" class="header__offer_btn">Order Now</a>
+              <div class="header__offer_info">
+                <div class="header__info_item">
+                  <img src="img/watch.svg" alt="watch" />
+                  <p class="header__info_title">Today 10:00 am - 7:00 pm</p>
+                  <p class="header__info_text">Working hours</p>
+                </div>
+                <div class="header__info_item">
+                  <img src="img/near_me.svg" alt="near_me" />
+                  <p class="header__info_title">Velyka Vasylkivska 100</p>
+                  <p class="header__info_text">Get Directions</p>
+                </div>
+                <div class="header__info_item">
+                  <img src="img/call.svg" alt="call" />
+                  <p class="header__info_title">+38 (063)833 24 15</p>
+                  <p class="header__info_text">Call Online</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="about">
+          <div class="about__container">
+            <div class="about__title block__title">
+              <h2 class="about__bg_title bg__title">About</h2>
+              <h3 class="about__casual_title casual__title">
+                The Basics Of Healthy Food
+              </h3>
+            </div>
+            <p class="about__text">
+              In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur
+              sint ea aliquip aliquip consectetur voluptate est. Eu minim dolore
+              laboris enim mollit voluptate irure esse aliquip.
+            </p>
+            <div class="about__slider">
+              <div class="about__slider_container">
+                <button class="about__slider_btn">
+                  <img
+                    src="img/left_arrow.svg"
+                    alt="slider_btn"
+                    id="left-arrow"
+                  />
+                </button>
+                <div class="about__slider_field">
+                  <div class="about__slider_item-container">
+                    <img
+                      src="img/slider__img-1.png"
+                      alt=""
+                      class="about__slider_item"
+                    />
+                    <img
+                      src="img/slider__img-2.png"
+                      alt=""
+                      class="about__slider_item"
+                    />
+                    <img
+                      src="img/slider__img-3.jpg"
+                      alt=""
+                      class="about__slider_item"
+                    />
+                    <img
+                      src="img/slider__img-4.jpg"
+                      alt=""
+                      class="about__slider_item"
+                    />
+                    <img
+                      src="img/slider__img-5.jpeg"
+                      alt=""
+                      class="about__slider_item"
+                    />
+                    <img
+                      src="img/slider__img-6.jpeg"
+                      alt=""
+                      class="about__slider_item hidden"
+                    />
+                  </div>
+                </div>
+                <button class="about__slider_btn">
+                  <img
+                    src="img/right_arrow.svg"
+                    alt="slider_btn"
+                    id="right-arrow"
+                  />
+                </button>
+              </div>
+              <div class="hidden-btns">
+                <button class="about__slider_btn">
+                  <img
+                    src="img/left_arrow.svg"
+                    alt="slider_btn"
+                    id="left-arrow"
+                  />
+                </button>
+                <button class="about__slider_btn">
+                  <img
+                    src="img/right_arrow.svg"
+                    alt="slider_btn"
+                    id="right-arrow"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="work">
+          <div class="work__title block__title">
+            <h2 class="work__bg_title bg__title">Work</h2>
+            <h3 class="work__casual_title casual__title">how it works</h3>
+          </div>
+          <hr class="block__line" />
+          <div class="work__item_container">
+            <div class="work__item">
+              <h3 class="work__item_title">Pick Meals</h3>
+              <span class="work__item_line">a</span>
+              <p class="work__item_text">
+                Choose your meals from our diverse weekly menu. Find gluten or
+                dairy free, low carb & veggie options.
+              </p>
+            </div>
+            <div class="work__item">
+              <h3 class="work__item_title">Choose How Often</h3>
+              <span class="work__item_line"></span>
+              <p class="work__item_text">
+                Our team of chefs do the prep work - no more chopping,
+                measuring, or sink full of dishes!
+              </p>
+            </div>
+            <div class="work__item">
+              <h3 class="work__item_title">Fast Deliveries</h3>
+              <span class="work__item_line"></span>
+              <p class="work__item_text">
+                Your freshly prepped 15-min dinner kits arrive on your doorstep
+                in a refrigerated box.
+              </p>
+            </div>
+            <div class="work__item">
+              <h3 class="work__item_title">Tasty Meals</h3>
+              <span class="work__item_line"></span>
+              <p class="work__item_text">
+                Gobble makes cooking fast, so you have more time to unwind and
+                be with family.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="dishes" id="menu">
+          <div class="dishes__container">
+            <div class="dishes__title block__title">
+              <h2 class="dishes__bg_title bg__title">Dishes</h2>
+              <h3 class="dishes__casual_title casual__title">
+                Dish Of The Day
+              </h3>
+            </div>
+            <hr class="block__line" />
+            <div class="dishes__item_container">
+              <div class="dishes__item">
+                <div class="dishes__item_start">
+                  <img src="img/dish_1.png" alt="" class="dishes__start_bg" />
+                  <a href="#" class="dishes__share_link">
+                    <img
+                      src="img/share.svg"
+                      alt=""
+                      class="dishes__sheare_ico"
+                    />
+                  </a>
+                </div>
+                <div class="dishes__item_info">
+                  <h2 class="dishes__info_title">Featured Meal</h2>
+                  <p class="dishes__info_subtext">
+                    Served with french fries + drink
+                  </p>
+                  <p class="dishes__info_text">
+                    Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                    whopper patty, Add Tender crisp patty and more...
+                  </p>
+                  <div class="dishes__info_order">
+                    <div class="dishes__order_level">
+                      <div class="dishes__order_stars">
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star_border.svg" alt="star" />
+                      </div>
+                      <p class="dishes__order_number">12</p>
+                    </div>
+                    <a href="#" class="dishes__order_btn">Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="dishes__item">
+                <div class="dishes__item_start">
+                  <img src="img/dish_2.png" alt="" class="dishes__start_bg" />
+                  <a href="#" class="dishes__share_link">
+                    <img
+                      src="img/share.svg"
+                      alt=""
+                      class="dishes__sheare_ico"
+                    />
+                  </a>
+                </div>
+                <div class="dishes__item_info">
+                  <h2 class="dishes__info_title">Featured Meal</h2>
+                  <p class="dishes__info_subtext">
+                    Served with french fries + drink
+                  </p>
+                  <p class="dishes__info_text">
+                    Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                    whopper patty, Add Tender crisp patty and more...
+                  </p>
+                  <div class="dishes__info_order">
+                    <div class="dishes__order_level">
+                      <div class="dishes__order_stars">
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star_border.svg" alt="star" />
+                      </div>
+                      <p class="dishes__order_number">12</p>
+                    </div>
+                    <a href="#" class="dishes__order_btn">Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="dishes__item">
+                <div class="dishes__item_start">
+                  <img src="img/dish_3.png" alt="" class="dishes__start_bg" />
+                  <a href="#" class="dishes__share_link">
+                    <img
+                      src="img/share.svg"
+                      alt=""
+                      class="dishes__sheare_ico"
+                    />
+                  </a>
+                </div>
+                <div class="dishes__item_info">
+                  <h2 class="dishes__info_title">Featured Meal</h2>
+                  <p class="dishes__info_subtext">
+                    Served with french fries + drink
+                  </p>
+                  <p class="dishes__info_text">
+                    Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                    whopper patty, Add Tender crisp patty and more...
+                  </p>
+                  <div class="dishes__info_order">
+                    <div class="dishes__order_level">
+                      <div class="dishes__order_stars">
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star_border.svg" alt="star" />
+                      </div>
+                      <p class="dishes__order_number">12</p>
+                    </div>
+                    <a href="#" class="dishes__order_btn">Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="dishes__item">
+                <div class="dishes__item_start">
+                  <img
+                    src="img/slider__img-1.png"
+                    alt=""
+                    class="dishes__start_bg"
+                  />
+                  <a href="#" class="dishes__share_link">
+                    <img
+                      src="img/share.svg"
+                      alt=""
+                      class="dishes__sheare_ico"
+                    />
+                  </a>
+                </div>
+                <div class="dishes__item_info">
+                  <h2 class="dishes__info_title">Featured Meal</h2>
+                  <p class="dishes__info_subtext">
+                    Served with french fries + drink
+                  </p>
+                  <p class="dishes__info_text">
+                    Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                    whopper patty, Add Tender crisp patty and more...
+                  </p>
+                  <div class="dishes__info_order">
+                    <div class="dishes__order_level">
+                      <div class="dishes__order_stars">
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star_border.svg" alt="star" />
+                      </div>
+                      <p class="dishes__order_number">12</p>
+                    </div>
+                    <a href="#" class="dishes__order_btn">Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="dishes__item">
+                <div class="dishes__item_start">
+                  <img src="img/dish_4.png" alt="" class="dishes__start_bg" />
+                  <a href="#" class="dishes__share_link">
+                    <img
+                      src="img/share.svg"
+                      alt=""
+                      class="dishes__sheare_ico"
+                    />
+                  </a>
+                </div>
+                <div class="dishes__item_info">
+                  <h2 class="dishes__info_title">Featured Meal</h2>
+                  <p class="dishes__info_subtext">
+                    Served with french fries + drink
+                  </p>
+                  <p class="dishes__info_text">
+                    Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                    whopper patty, Add Tender crisp patty and more...
+                  </p>
+                  <div class="dishes__info_order">
+                    <div class="dishes__order_level">
+                      <div class="dishes__order_stars">
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star_border.svg" alt="star" />
+                      </div>
+                      <p class="dishes__order_number">12</p>
+                    </div>
+                    <a href="#" class="dishes__order_btn">Order</a>
+                  </div>
+                </div>
+              </div>
+              <div class="dishes__item">
+                <div class="dishes__item_start">
+                  <img src="img/dish_5.png" alt="" class="dishes__start_bg" />
+                  <a href="#" class="dishes__share_link">
+                    <img
+                      src="img/share.svg"
+                      alt=""
+                      class="dishes__sheare_ico"
+                    />
+                  </a>
+                </div>
+                <div class="dishes__item_info">
+                  <h2 class="dishes__info_title">Featured Meal</h2>
+                  <p class="dishes__info_subtext">
+                    Served with french fries + drink
+                  </p>
+                  <p class="dishes__info_text">
+                    Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add
+                    whopper patty, Add Tender crisp patty and more...
+                  </p>
+                  <div class="dishes__info_order">
+                    <div class="dishes__order_level">
+                      <div class="dishes__order_stars">
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star.svg" alt="star" />
+                        <img src="img/star_border.svg" alt="star" />
+                      </div>
+                      <p class="dishes__order_number">12</p>
+                    </div>
+                    <a href="#" class="dishes__order_btn">Order</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="chefs" id="chefs">
+          <div class="chefs__container">
+            <div class="chefs__title block__title">
+              <h2 class="chefs__bg_title bg__title">CHEFS</h2>
+              <h3 class="chefs__casual_title casual__title">
+                This month's chefs
+              </h3>
+            </div>
+            <hr class="block__line" />
+            <div class="chefs__item-container">
+              <div class="chefs__item">
+                <div class="chefs__chef-profile">
+                  <img src="img/avatar_1.png" alt="avatar" />
+                  <div>
+                    <h4>Gregory Flores</h4>
+                    <p>Chef of the cold</p>
+                  </div>
+                </div>
+                <div class="chefs__chef-works">
+                  <img src="img/chef's_dish_1.png" alt="chef-works" />
+                  <img src="img/chef's_dish_2.png" alt="chef-works" />
+                  <img src="img/chef's_dish_3.png" alt="chef-works" />
+                </div>
+              </div>
+              <div class="chefs__item">
+                <div class="chefs__chef-profile">
+                  <img src="img/avatar_2.png" alt="avatar" />
+                  <div>
+                    <h4>Annette Cooper</h4>
+                    <p>Chef of the hot</p>
+                  </div>
+                </div>
+                <div class="chefs__chef-works">
+                  <img src="img/chef's_dish_4.png" alt="chef-works" />
+                  <img src="img/chef's_dish_5.png" alt="chef-works" />
+                  <img src="img/chef's_dish_6.png" alt="chef-works" />
+                </div>
+              </div>
+              <div class="chefs__item">
+                <div class="chefs__chef-profile">
+                  <img src="img/avatar_3.png" alt="avatar" />
+                  <div>
+                    <h4>Greg Fox</h4>
+                    <p>Сhef macro kitchen</p>
+                  </div>
+                </div>
+                <div class="chefs__chef-works">
+                  <img src="img/chef's_dish_7.png" alt="chef-works" />
+                  <img src="img/chef's_dish_8.png" alt="chef-works" />
+                  <img src="img/chef's_dish_9.png" alt="chef-works" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="recipes" id="recipes">
+          <div class="recipes__container">
+            <div class="block__title">
+              <h2 class="bg__title">RECIPES</h2>
+              <h3 class="casual__title">Recipes From Our Chefs</h3>
+            </div>
+            <hr class="block__line" />
+            <div class="recipes__news">
+              <article class="recipes__news_item bg-zoom-animation">
+                <button class="recipes__share-btn">
+                  <img src="img/share.svg" alt="share" />
+                </button>
+                <div class="recipes__item_info">
+                  <span class="recipes__food-category">breakfast</span>
+                  <time datetime="05-07-2016" class="recipes__item_date">
+                    05 Jul 2016
+                  </time>
+                  <p class="recipes__item_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </p>
+                  <p class="recipes__item_author">Jason Keller</p>
+                  <div class="recipes__item_activity">
+                    <span class="recipes__activity_item">
+                      <img src="img/views.svg" alt="views" />
+                      <p>275</p>
+                    </span>
+                    <span class="recipes__activity_item">
+                      <img src="img/coments.svg" alt="coments" />
+                      <p>12</p>
+                    </span>
+                  </div>
+                </div>
+              </article>
+              <article
+                class="recipes__news_item-right news_item_right1 black-to-green-animation"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut
+                </p>
+                <div class="recipes__item-right_info">
+                  <div class="recipes__item-right_main-info">
+                    <span class="recipes__food-category">breakfast</span>
+                    <time datetime="05-07-2016" class="recipes__item_date">
+                      05 Jul 2016
+                    </time>
+                  </div>
+                  <div class="recipes__item_activity">
+                    <span class="recipes__activity_item">
+                      <img src="img/views.svg" alt="views" />
+                      <p>275</p>
+                    </span>
+                    <span class="recipes__activity_item">
+                      <img src="img/coments.svg" alt="coments" />
+                      <p>12</p>
+                    </span>
+                  </div>
+                </div>
+              </article>
+              <article
+                class="recipes__news_item-right news_item_right2 bg-zoom-animation"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+                <div class="recipes__item-right_info">
+                  <div class="recipes__item-right_main-info">
+                    <span class="recipes__food-category">dinner</span>
+                    <time datetime="05-07-2016" class="recipes__item_date">
+                      07 Jan 2016
+                    </time>
+                  </div>
+                  <div class="recipes__item_activity">
+                    <span class="recipes__activity_item">
+                      <img src="img/views.svg" alt="views" />
+                      <p>275</p>
+                    </span>
+                    <span class="recipes__activity_item">
+                      <img src="img/coments.svg" alt="coments" />
+                      <p>12</p>
+                    </span>
+                  </div>
+                </div>
+              </article>
+              <article
+                class="recipes__news_item-right news_item_right3 black-to-green-animation"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt
+                </p>
+                <div class="recipes__item-right_info">
+                  <div class="recipes__item-right_main-info">
+                    <span class="recipes__food-category">sweets</span>
+                    <time datetime="05-07-2016" class="recipes__item_date">
+                      05 Jul 2016
+                    </time>
+                  </div>
+                  <div class="recipes__item_activity">
+                    <span class="recipes__activity_item">
+                      <img src="img/views.svg" alt="views" />
+                      <p>275</p>
+                    </span>
+                    <span class="recipes__activity_item">
+                      <img src="img/coments.svg" alt="coments" />
+                      <p>12</p>
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="social" id="contacts">
+          <div class="social__container">
+            <div class="block__title">
+              <h2 class="bg__title">SOCIAL</h2>
+              <h3 class="casual__title">We in Social</h3>
+            </div>
+            <hr class="block__line" />
+            <div class="social__item-container">
+              <article class="social__item">
+                <div class="social__item-header">
+                  <div class="social__logo">
+                    <div class="social__ico-container">
+                      <img
+                        src="img/twitter.svg"
+                        alt="twitter"
+                        class="social__ico"
+                      />
+                    </div>
+                    <p>Twitter</p>
+                  </div>
+                  <button class="social__btn">follow us</button>
+                </div>
+                <hr class="social__line" />
+                <div class="social__post">
+                  <div class="social__post-container text-post">
+                    <time datetime="16:20" class="social__post-date">
+                      24 Jun at 16:20 pm
+                    </time>
+                    <p class="social__post-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit
+                      amet, consectetur adipiscing
+                    </p>
+                    <p class="social__post-author">@DennisFerguson</p>
+                  </div>
+                  <div class="social__post-container text-post">
+                    <time datetime="16:20" class="social__post-date">
+                      24 Jun at 16:20 pm
+                    </time>
+                    <p class="social__post-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit
+                      amet, consectetur adipiscing
+                    </p>
+                    <p class="social__post-author">@DennisFerguson</p>
+                  </div>
+                  <div class="social__post-container text-post">
+                    <time datetime="16:20" class="social__post-date">
+                      24 Jun at 16:20 pm
+                    </time>
+                    <p class="social__post-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit
+                      amet, consectetur adipiscing
+                    </p>
+                    <p class="social__post-author">@DennisFerguson</p>
+                  </div>
+                </div>
+              </article>
+              <article class="social__item social__img-item">
+                <div class="social__item-header">
+                  <div class="social__logo">
+                    <div class="social__ico-container">
+                      <img
+                        src="img/instagram.svg"
+                        alt="twitter"
+                        class="social__ico"
+                      />
+                    </div>
+                    <p>Instagram</p>
+                  </div>
+                  <button class="social__btn">follow us</button>
+                </div>
+                <div class="social__post social__img-post">
+                  <div class="social__post-container img-post">
+                    <img src="img/social_1.png" alt="social_1" />
+                    <img src="img/social_2.png" alt="social_2" />
+                    <img src="img/social_3.png" alt="social_3" />
+                    <img src="img/social_4.png" alt="social_4" />
+                    <img src="img/social_5.png" alt="social_5" />
+                    <img src="img/social_6.png" alt="social_6" />
+                    <img src="img/social_7.jpeg" alt="social_1" />
+                    <img src="img/social_8.jpg" alt="social_2" />
+                    <img src="img/social_9.jpg" alt="social_3" />
+                    <img src="img/social_10.jpg" alt="social_4" />
+                    <img src="img/social_11.jpg" alt="social_5" />
+                    <img src="img/social_12.jpg" alt="social_6" />
+                  </div>
+                </div>
+              </article>
+              <article class="social__item">
+                <div class="social__item-header">
+                  <div class="social__logo">
+                    <div class="social__ico-container">
+                      <img
+                        src="img/facebook.svg"
+                        alt="twitter"
+                        class="social__ico"
+                      />
+                    </div>
+                    <p>Facebook</p>
+                  </div>
+                  <button class="social__btn">follow us</button>
+                </div>
+                <hr class="social__line" />
+                <div class="social__post">
+                  <div class="social__post-container text-post">
+                    <time datetime="16:20" class="social__post-date">
+                      24 Jun at 16:20 pm
+                    </time>
+                    <p class="social__post-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit
+                      amet, consectetur adipiscing
+                    </p>
+                    <p class="social__post-author">@DennisFerguson</p>
+                  </div>
+                  <div class="social__post-container text-post">
+                    <time datetime="16:20" class="social__post-date">
+                      24 Jun at 16:20 pm
+                    </time>
+                    <p class="social__post-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit
+                      amet, consectetur adipiscing
+                    </p>
+                    <p class="social__post-author">@DennisFerguson</p>
+                  </div>
+                  <div class="social__post-container text-post">
+                    <time datetime="16:20" class="social__post-date">
+                      24 Jun at 16:20 pm
+                    </time>
+                    <p class="social__post-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit
+                      amet, consectetur adipiscing
+                    </p>
+                    <p class="social__post-author">@DennisFerguson</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__offer_info">
+            <div class="footer__info_item">
+              <img src="img/watch.svg" alt="watch" />
+              <p class="footer__info_title">Today 10:00 am - 7:00 pm</p>
+              <p class="footer__info_text">Working hours</p>
+            </div>
+            <div class="footer__info_item">
+              <img src="img/near_me.svg" alt="near_me" />
+              <p class="footer__info_title">Velyka Vasylkivska 100</p>
+              <p class="footer__info_text">Get Directions</p>
+            </div>
+            <div class="footer__info_item">
+              <img src="img/call.svg" alt="call" />
+              <p class="footer__info_title">+38 (063)833 24 15</p>
+              <p class="footer__info_text">Call Online</p>
+            </div>
+          </div>
+          <hr class="footer__line" />
+          <div class="footer-logo">
+            <img src="img/logo.svg" alt="" class="footer-logo__img" />
+            <h5 class="footer-logo__text">Healthy Switcher</h5>
+          </div>
+          <p class="footer__text">
+            © Designed by Yellow Snow. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
